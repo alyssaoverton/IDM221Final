@@ -3,4 +3,47 @@ header{
 }
 nav ul li a {
     color: black;
+    text-align: center;
+
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+li {
+    display: inline;
+}
+
+
+
+* {
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+   }
+
+   /* Three images - so 100 / 3 */
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* grid system */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+   footer {
+       width: 700px;
+       position: fixed;
+       
+   }
