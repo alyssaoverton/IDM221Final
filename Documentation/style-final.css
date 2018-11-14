@@ -1,6 +1,8 @@
 header{
     background-color: white;
 }
+
+
 nav ul li a {
     color: black;
     text-align: center;
@@ -8,6 +10,8 @@ nav ul li a {
     font-weight: heavy;
     text-decoration: none;
 }
+
+
 
 ul {
     list-style-type: none;
@@ -18,16 +22,18 @@ ul {
     display: inline-block;
 }
 
+
+
 li {
     display: inline;
 }
-
 
 
 * {
     font-size: 1rem;
     font-family: 'Times New Roman', Times, serif
    }
+
 
    h2 { 
     width: 100%;
@@ -36,9 +42,10 @@ li {
     margin: 0; 
 }
 
+
    footer {
        width: 100%;
        position: relative;
        text-align: center;
-       
+    
    }
