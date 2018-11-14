@@ -4,7 +4,9 @@ header{
 nav ul li a {
     color: black;
     text-align: center;
-
+    text-transform: uppercase;
+    font-weight: heavy;
+    text-decoration: none;
 }
 
 ul {
@@ -24,26 +26,19 @@ li {
 
 * {
     font-size: 1rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif
    }
 
-   /* Three images - so 100 / 3 */
-
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-  
-  /* grid system */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+   h2 { 
+    width: 100%;
+    padding: 2px;
+    border: 2px clear;
+    margin: 0; 
+}
 
    footer {
-       width: 700px;
-       position: fixed;
+       width: 100%;
+       position: relative;
+       text-align: center;
        
    }
